@@ -1,0 +1,89 @@
+/* Main body styles */
+body {
+  background: #eeeeee;
+  color: #111;
+}
+
+/* Title / Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+header {
+  background-color: #1e1ee4;
+}
+
+/* TODO: insert your preferred header here */
+header #header-image {
+  height: 180px;
+  background: url('/public/images/maestrul.jpg');
+  background-size: cover;
+  padding: 1rem 2rem;
+  text-align: right;
+}
+
+header #header-image h1 {
+  display: inline-block;
+  background: #222;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* Site header + navigation */
+/* TODO: customize your colors */
+.site-header > nav {
+  background-color: rgb(60, 105, 18);
+}
+.site-header .navbar-nav .nav-link {
+  color: #4eee26;
+  padding: 0.5em 1em;
+}
+.site-header .navbar-nav .nav-link:hover {
+  color: #2edf69;
+  background: rgb(64, 136, 22);
+  border-radius: 15px;
+}
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+/* TODO: change header title font color */
+/* <css selector?> { color: ...; } */
+h1.main-title {
+  color: #7de640;
+}
+
+main {
+  margin-top: 1.5rem;
+}
+
+/* content box with borders and background */
+/* TODO: make box rounded ;) */
+.content-box {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.content-box.main-content {
+  min-height: 100%;
+}
+
+.news-item { color: #000; }
+
+h1.main-title {
+  color: #136;
+  padding-bottom: 0.4em;
+  margin-top: 1rem;
+  margin-bottom: 0.7em;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.todo {
+  background: #FFA;
+  padding: 0.7rem;
+  font-style: italic;
+}
+

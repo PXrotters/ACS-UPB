@@ -1,0 +1,40 @@
+version: '3'
+services:
+  lab4-db:
+    image: postgres
+    volumes:
+      - ./backend/database/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+      - lab4-db-volume:/var/lib/postgresql/data
+    networks:
+      - lab4-db-network
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=books
+
+  lab4-adminer:
+    image: adminer
+    networks:
+      - lab4-adminer-network
+    ports:
+      - 8080:8080
+
+  lab4-api:
+    image: lab4-api-image
+    networks:
+      - lab4-db-network
+    environment:
+      - PGUSER=admin
+      - PGPASSWORD=admin
+      - PGDATABASE=books
+      - PGHOST=lab4-db
+      - PGPORT=5432
+    ports:
+      - 5555:80
+
+networks:
+  lab4-db-network:
+  lab4-adminer-network:
+
+volumes:
+  lab4-db-volume:

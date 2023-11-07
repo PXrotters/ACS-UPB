@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="./public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Website CSS -->
+  <link rel="stylesheet" type="text/css" href="./public/style.css">
+
+  <title>Lab 01 - Web Basics</title>
+</head>
+<body>
+  <!-- Note: <header> was added in HTML5; use CSS to customize it! -->
+  <header class="site-header">
+    <div class="container">
+      <img src="./public/images/maestrul.jpg" alt="Logo">
+    </div>
+
+    <!-- This is a navigation bar (i.e., menu) -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a class="navbar-brand mr-4" href="file:///home/mihai/Desktop/IAP1-IDST/Lab2/initial_design.html">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="file:///home/mihai/Desktop/IAP1-IDST/Lab2/templates/index.html">Home</a>
+            <a class="nav-item nav-link" href="file:///home/mihai/Desktop/IAP1-IDST/Lab2/templates/about.html">About</a>
+          </div>
+          <!-- Navbar Right Side -->
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="file:///home/mihai/Desktop/IAP1-IDST/Lab2/templates/login.html">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main page content element (with main content + right sidebar) -->
+  <main role="main" class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <!-- Left-side content: page title + actual page text -->
+        <div class="content-box main-content">
+          <!-- Big page title -->
+          <h1 class="main-title">Homepage</h1>
+          <!-- Add some paragraphs here (remove the TODO class, please!) -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+      </div>
+
+      <!-- Right side bar -->
+      <div class="col-md-4">
+        <div class="content-box" id="account">
+          <h4>Your Account</h4>
+            <p class="logged-in">Welcome, {{ username }}!</p>
+            <p><a href="file:///home/mihai/Desktop/IAP1-IDST/Lab2/templates/logout.html">Logout</a></p>
+            <p class="logged-out">Not authenticated?</p>
+            <p>Click <a href="file:///home/mihai/Desktop/IAP1-IDST/Lab2/templates/login.html">here to login</a></p>
+          </div>
+      </div>
+
+        <div class="content-box">
+          <h4>Changelog</h4>
+          <p>
+            <ul class="list-group list-group-flush">
+               <li class="list-group-item list-group-item-light">
+                <div class="d-flex w-100 justify-content-between">
+                  <div class="news-item mb-1">We just added authentication!</div>
+                  <small class="text-muted">&#128197; 2023-04-06</small>
+                </div>
+              </li>
+               <li class="list-group-item list-group-item-light">
+                <div class="d-flex w-100 justify-content-between">
+                  <div class="news-item mb-1">&#128151; Migrate to Flask server</div>
+                  <small class="text-muted">&#128197; 2023-04-03</small>
+                </div>
+              </li>
+              <li class="list-group-item list-group-item-light">
+                <div class="d-flex w-100 justify-content-between">
+                  <div class="news-item mb-1">First version of the website</div>
+                  <small class="text-muted">&#128197; 2023-04-01</small>
+                </div>
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Include Bootstrap script (must be here, at the bottom) -->
+  <script src="./public/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
