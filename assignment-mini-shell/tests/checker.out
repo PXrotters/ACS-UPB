@@ -1,0 +1,111 @@
+make -C ../src UTIL_PATH=/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../util clean
+make[1]: Entering directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/src'
+rm -f ../src.zip
+rm -rf main.o cmd.o utils.o /home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../util/parser/parser.tab.o /home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../util/parser/parser.yy.o mini-shell *~
+make[1]: Leaving directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/src'
+make clean
+make[1]: Entering directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests'
+rm -f *~
+make[1]: Leaving directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests'
+make -i SRC_PATH=../src
+make[1]: Entering directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests'
+make -C ../src UTIL_PATH=/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../util CPPFLAGS=-I/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../src
+make[2]: Entering directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/src'
+make -C /home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../util/parser/
+make[3]: Entering directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/util/parser'
+gcc  -c parser.tab.c
+gcc  -c parser.yy.c
+g++  -o UseParser UseParser.o parser.tab.o parser.yy.o
+g++  -o DisplayStructure DisplayStructure.o parser.tab.o parser.yy.o
+g++  -o CUseParser CUseParser.o parser.tab.o parser.yy.o
+make[3]: Leaving directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/util/parser'
+gcc -g -Wall -I/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../src  -c -o main.o main.c
+gcc -g -Wall -I/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../src  -c -o cmd.o cmd.c
+cmd.c: In function ‘parse_simple’:
+cmd.c:84:26: warning: implicit declaration of function ‘handle_builtin_commands’ [-Wimplicit-function-declaration]
+   84 |     int builtin_result = handle_builtin_commands(s);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:89:29: warning: implicit declaration of function ‘handle_variable_assignment’ [-Wimplicit-function-declaration]
+   89 |     int assignment_result = handle_variable_assignment(s);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:95:12: warning: implicit declaration of function ‘execute_external_command’ [-Wimplicit-function-declaration]
+   95 |     return execute_external_command(s);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+cmd.c: At top level:
+cmd.c:98:12: error: static declaration of ‘handle_builtin_commands’ follows non-static declaration
+   98 | static int handle_builtin_commands(simple_command_t *s) {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:84:26: note: previous implicit declaration of ‘handle_builtin_commands’ with type ‘int()’
+   84 |     int builtin_result = handle_builtin_commands(s);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:124:12: error: static declaration of ‘handle_variable_assignment’ follows non-static declaration
+  124 | static int handle_variable_assignment(simple_command_t *s) {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:89:29: note: previous implicit declaration of ‘handle_variable_assignment’ with type ‘int()’
+   89 |     int assignment_result = handle_variable_assignment(s);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:154:12: error: static declaration of ‘execute_external_command’ follows non-static declaration
+  154 | static int execute_external_command(simple_command_t *s) {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:95:12: note: previous implicit declaration of ‘execute_external_command’ with type ‘int()’
+   95 |     return execute_external_command(s);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+cmd.c: In function ‘run_in_parallel’:
+cmd.c:209:19: warning: implicit declaration of function ‘run_command_in_child’ [-Wimplicit-function-declaration]
+  209 |         int ret = run_command_in_child(cmd1, level + 1, father);
+      |                   ^~~~~~~~~~~~~~~~~~~~
+cmd.c: At top level:
+cmd.c:244:13: error: conflicting types for ‘run_command_in_child’; have ‘bool(command_t *, int,  command_t *)’
+  244 | static bool run_command_in_child(command_t *cmd, int level, command_t *father) {
+      |             ^~~~~~~~~~~~~~~~~~~~
+cmd.c:209:19: note: previous implicit declaration of ‘run_command_in_child’ with type ‘int()’
+  209 |         int ret = run_command_in_child(cmd1, level + 1, father);
+      |                   ^~~~~~~~~~~~~~~~~~~~
+cmd.c:244:13: warning: ‘run_command_in_child’ defined but not used [-Wunused-function]
+  244 | static bool run_command_in_child(command_t *cmd, int level, command_t *father) {
+      |             ^~~~~~~~~~~~~~~~~~~~
+cmd.c:154:12: warning: ‘execute_external_command’ defined but not used [-Wunused-function]
+  154 | static int execute_external_command(simple_command_t *s) {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:124:12: warning: ‘handle_variable_assignment’ defined but not used [-Wunused-function]
+  124 | static int handle_variable_assignment(simple_command_t *s) {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:98:12: warning: ‘handle_builtin_commands’ defined but not used [-Wunused-function]
+   98 | static int handle_builtin_commands(simple_command_t *s) {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~
+cmd.c:78:12: warning: ‘parse_simple’ defined but not used [-Wunused-function]
+   78 | static int parse_simple(simple_command_t *s, int level, command_t *father) {
+      |            ^~~~~~~~~~~~
+make[2]: [<builtin>: cmd.o] Error 1 (ignored)
+gcc -g -Wall -I/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../src  -c -o utils.o utils.c
+gcc -g -Wall main.o cmd.o utils.o /home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../util/parser/parser.tab.o /home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests/../util/parser/parser.yy.o -o mini-shell
+/usr/bin/ld: cannot find cmd.o: No such file or directory
+collect2: error: ld returned 1 exit status
+make[2]: [Makefile:13: mini-shell] Error 1 (ignored)
+make[2]: Leaving directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/src'
+make[1]: Leaving directory '/home/mihai/Desktop/SO/Tema1_Bonus_SO/assignment-mini-shell/tests'
+SRC_PATH=../src ./run_all.sh
+ln: failed to access '../src/mini-shell': No such file or directory
+
+                         = Testing - mini-shell =
+
+01) Testing commands without arguments......................passed  [03/100]
+02) Testing commands with arguments.........................passed  [02/100]
+03) Testing simple redirect operators.......................passed  [05/100]
+04) Testing append redirect operators.......................passed  [05/100]
+05) Testing current directory...............................passed  [05/100]
+06) Testing conditional operators...........................passed  [05/100]
+07) Testing sequential commands.............................passed  [03/100]
+08) Testing environment variables...........................passed  [05/100]
+09) Testing single pipe.....................................failed  [ 0/100]
+10) Testing multiple pipes..................................passed  [10/100]
+11) Testing variables and redirect..........................passed  [05/100]
+12) Testing overwritten variables...........................passed  [02/100]
+13) Testing all operators...................................passed  [02/100]
+14) Testing parallel operator...............................passed  [10/100]
+15) Testing big file........................................passed  [05/100]
+16) Testing sleep command...................................passed  [07/100]
+17) Testing fscanf function.................................passed  [07/100]
+18) Testing unknown command.................................passed  [04/100]
+
+Checker:  85/100
