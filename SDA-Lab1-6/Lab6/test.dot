@@ -1,0 +1,29 @@
+digraph BST {
+    node [fontname="Arial", shape=circle, style=filled, fillcolor=red];
+    50 -> 35;
+    35 -> 9;
+    9 -> 4;
+    9 -> 15;
+    35 -> 45;
+    45 -> 40;
+    40 -> 39;
+    39 -> 37;
+    40 -> 44;
+    44 -> 43;
+    45 -> 47;
+    47 -> 46;
+    50 -> 150;
+    150 -> 100;
+    100 -> 95;
+    95 -> 90;
+    90 -> 68;
+    95 -> 98;
+    98 -> 97;
+    98 -> 99;
+    150 -> 175;
+    175 -> 155;
+    175 -> 200;
+    4 [fontname="Arial", shape=circle, style=filled, fillcolor=yellow];
+    43 [fontname="Arial", shape=circle, style=filled, fillcolor=yellow];
+    35 [fontname="Arial", shape=circle, style=filled, fillcolor=green];
+}
