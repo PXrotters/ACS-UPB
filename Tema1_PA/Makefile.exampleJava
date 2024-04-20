@@ -1,0 +1,29 @@
+# Exemplu de Makefile pentru soluții scrise în Java.
+
+.PHONY: build clean
+
+build: P1.class P2.class P3.class P4.class
+
+# Nu compilați aici, nici măcar ca dependențe de reguli.
+run-p1:
+	java P1
+run-p2:
+	java P2
+run-p3:
+	java P3
+run-p4:
+	java P4
+
+# Schimbați numele surselor și ale binarelor (peste tot).
+P1.class: P1.java
+	javac $^
+P2.class: P2.java
+	javac $^
+P3.class: P3.java
+	javac $^
+P4.class: P4.java
+	javac $^
+
+# Vom șterge fișierele bytecode compilate.
+clean:
+	rm -f *.class

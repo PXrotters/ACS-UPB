@@ -1,0 +1,3 @@
+./out/production/check_public/check_public/_utils/verif.cpp:30:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing ./out/production/check_public/check_public/_utils/verif.cpp
+Total errors found: 1
