@@ -19,7 +19,7 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 - **📝 [Tema1_PA](Tema1_PA)**, **📝 [Tema2_PA](Tema2_PA)**: Teme pentru cursul de Proiectarea Algoritmilor.
 - **📝 [Tema1_SDA](Tema1_SDA)**: Tema pentru cursul de Structuri de Date și Algoritmi.
 - **📝 [Tema1_Rust](Tema1_Rust)**: Temă pentru cursul de Programarea Calculatoarelor și Limbaje de Programare 4 (Rust).
-- **📝 [Tema1_PP](Tema1_PP)**, **📝 [Tema2_PP](Tema2_PP)**: Teme pentru cursul de Paradigme de Programare.
+- **📝 [Tema1_PP](Tema1_PP)**, **📝 [Tema2_PP](Tema2_PP)**, **📝 [Tema3_PP](Tema3_PP)**: Teme pentru cursul de Paradigme de Programare.
 - **📝 [Tema1_PCLP](Tema1_PCLP)**, **📝 [Tema3_PCLP](Tema3_PCLP)**: Teme pentru cursul de Programarea Calculatoarelor și Limbaje de Programare 1.
 - **📝 [Tema1_PCOM](Tema1_PCOM)**, **📝 [Tema2_PCOM](Tema2_PCOM)**, **📝 [Tema4_PCOM](Tema4_PCOM)**: Teme pentru cursul de Protocoale de Comunicații.
 - **📝 [Tema_MN](Tema_MN)**: Temă pentru cursul de Metode Numerice.
