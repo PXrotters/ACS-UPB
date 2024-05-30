@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/ad_sc_virgula_mobila.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ad_sc_virgula_mobila
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/get_op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module get_op
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod1_comp_exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod1_comp_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod2_alege_exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod2_alege_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod3_adj_exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod3_adj_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod4_alin_mantise.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod4_alin_mantise
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod5_add_diff_mantise.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod5_add_diff_mantise
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod6_norm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod6_norm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod7_concat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod7_concat
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg1_exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg1_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg1_exps.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg1_exps
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg1_mantise.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg1_mantise
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg2_exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg2_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg2_mantisa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg2_mantisa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg3_mantisa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg3_mantisa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg4_mantise.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg4_mantise
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/transfer_op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transfer_op
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sim_1/new/simulare_virgula_mobila.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simulare_virgula_mobila

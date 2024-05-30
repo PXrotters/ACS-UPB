@@ -1,0 +1,23 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.sim/sim_1/behav/xsim/glbl.v,1715411953,verilog,,,,glbl,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sim_1/new/simulare_virgula_mobila.v,1715425751,verilog,,,,simulare_virgula_mobila,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/ad_sc_virgula_mobila.v,1715422863,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/get_op.v,,ad_sc_virgula_mobila,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/get_op.v,1715414410,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod1_comp_exp.v,,get_op,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod1_comp_exp.v,1715421477,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod2_alege_exp.v,,mod1_comp_exp,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod2_alege_exp.v,1715421659,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod3_adj_exp.v,,mod2_alege_exp,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod3_adj_exp.v,1715421981,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod4_alin_mantise.v,,mod3_adj_exp,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod4_alin_mantise.v,1715421782,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod5_add_diff_mantise.v,,mod4_alin_mantise,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod5_add_diff_mantise.v,1715414889,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod6_norm.v,,mod5_add_diff_mantise,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod6_norm.v,1715421928,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod7_concat.v,,mod6_norm,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/mod7_concat.v,1715421538,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg1_exp.v,,mod7_concat,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg1_exp.v,1715421796,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg1_exps.v,,reg1_exp,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg1_exps.v,1715415341,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg1_mantise.v,,reg1_exps,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg1_mantise.v,1715414338,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg2_exp.v,,reg1_mantise,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg2_exp.v,1715414942,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg2_mantisa.v,,reg2_exp,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg2_mantisa.v,1715415024,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg3_mantisa.v,,reg2_mantisa,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg3_mantisa.v,1715415383,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg4_mantise.v,,reg3_mantisa,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/reg4_mantise.v,1715414664,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/transfer_op.v,,reg4_mantise,,,,,,,,
+C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sources_1/new/transfer_op.v,1715414593,verilog,,C:/Users/Ilie Nicolai/Desktop/Lab5/Lab5.srcs/sim_1/new/simulare_virgula_mobila.v,,transfer_op,,,,,,,,
