@@ -1,0 +1,4 @@
+Running: xsim.dir/simulare_bauturi_behav/xsimk.exe -simmode gui -wdb simulare_bauturi_behav.wdb -simrunnum 0 -socket 54115
+Design successfully loaded
+Design Loading Memory Usage: 7956 KB (Peak: 7956 KB)
+Design Loading CPU Usage: 0 ms

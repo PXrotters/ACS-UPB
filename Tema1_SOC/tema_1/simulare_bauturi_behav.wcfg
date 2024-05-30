@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulare_bauturi_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simulare_bauturi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="782.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.003 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/simulare_bauturi/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/bani50_in" type="array">
+      <obj_property name="ElementShortName">bani50_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">bani50_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/leu1_in" type="array">
+      <obj_property name="ElementShortName">leu1_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">leu1_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/lei5_in" type="array">
+      <obj_property name="ElementShortName">lei5_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">lei5_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/produs_in" type="array">
+      <obj_property name="ElementShortName">produs_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">produs_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/rest" type="array">
+      <obj_property name="ElementShortName">rest[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rest[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/produs_out" type="array">
+      <obj_property name="ElementShortName">produs_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">produs_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/bani50_rest" type="array">
+      <obj_property name="ElementShortName">bani50_rest[0:0]</obj_property>
+      <obj_property name="ObjectShortName">bani50_rest[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/leu1_rest" type="array">
+      <obj_property name="ElementShortName">leu1_rest[0:0]</obj_property>
+      <obj_property name="ObjectShortName">leu1_rest[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/lei5_rest" type="array">
+      <obj_property name="ElementShortName">lei5_rest[0:0]</obj_property>
+      <obj_property name="ObjectShortName">lei5_rest[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/intrari" type="array">
+      <obj_property name="ElementShortName">intrari[4:0]</obj_property>
+      <obj_property name="ObjectShortName">intrari[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulare_bauturi/iesiri" type="array">
+      <obj_property name="ElementShortName">iesiri[3:0]</obj_property>
+      <obj_property name="ObjectShortName">iesiri[3:0]</obj_property>
+   </wvobject>
+</wave_config>
