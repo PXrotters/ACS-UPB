@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_prefix_adder_16bit_behav/xsimk.exe -simmode gui -wdb tb_prefix_adder_16bit_behav.wdb -simrunnum 0 -socket 17950
+Design successfully loaded
+Design Loading Memory Usage: 8948 KB (Peak: 8948 KB)
+Design Loading CPU Usage: 0 ms

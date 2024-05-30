@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu May 30 19:53:07 2024
+# Process ID: 12444
+# Current directory: C:/Users/dlmih/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SOC/TEMA2_Neculau_Sanda/T2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15876 C:\Users\dlmih\OneDrive - Universitatea Politehnica Bucuresti\Desktop\SOC\TEMA2_Neculau_Sanda\T2\T2.xpr
+# Log file: C:/Users/dlmih/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SOC/TEMA2_Neculau_Sanda/T2/vivado.log
+# Journal file: C:/Users/dlmih/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SOC/TEMA2_Neculau_Sanda/T2\vivado.jou
+# Running On        :Mihai24
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency     :2419 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8379 MB
+# Swap memory       :3758 MB
+# Total Virtual     :12137 MB
+# Available Virtual :4889 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/dlmih/OneDrive - Universitatea Politehnica Bucuresti/Desktop/SOC/TEMA2_Neculau_Sanda/T2/T2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_prefix_adder_16bit.tcl
+close_sim
