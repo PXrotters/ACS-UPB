@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LAB4 321CB.srcs/sources_1/new/Outputs.v" \
+"../../../../LAB4 321CB.srcs/sources_1/new/UAT.v" \
+"../../../../LAB4 321CB.srcs/sources_1/new/Entries.v" \
+"../../../../LAB4 321CB.srcs/sources_1/new/Sum4Bits.v" \
+"../../../../LAB4 321CB.ip_user_files/bd/Sumator16Biti/sim/Sumator16Biti.v" \
+"../../../../LAB4 321CB.gen/sources_1/bd/Sumator16Biti/hdl/Sumator16Biti_wrapper.v" \
+"../../../../LAB4 321CB.srcs/sim_1/new/simulare.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

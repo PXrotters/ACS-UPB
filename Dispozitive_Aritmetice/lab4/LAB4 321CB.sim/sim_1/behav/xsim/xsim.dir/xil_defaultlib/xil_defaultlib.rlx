@@ -1,0 +1,12 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.gen/sources_1/bd/Sumator16Biti/hdl/Sumator16Biti_wrapper.v,1711629426,verilog,,C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sim_1/new/simulare.v,,Sumator16Biti_wrapper,,,,,,,,
+C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.ip_user_files/bd/Sumator16Biti/sim/Sumator16Biti.v,1711630300,verilog,,C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.gen/sources_1/bd/Sumator16Biti/hdl/Sumator16Biti_wrapper.v,,Sumator16Biti,,,,,,,,
+C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.sim/sim_1/behav/xsim/glbl.v,1711625182,verilog,,,,glbl,,,,,,,,
+C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sim_1/new/simulare.v,1711625184,verilog,,,,ViataEoSimulare,,,,,,,,
+C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/Entries.v,1711625184,verilog,,C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/Sum4Bits.v,,Entries,,,,,,,,
+C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/Outputs.v,1711625185,verilog,,C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/UAT.v,,Outputs,,,,,,,,
+C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/Sum4Bits.v,1711630547,verilog,,C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.ip_user_files/bd/Sumator16Biti/sim/Sumator16Biti.v,,Sum4Bits,,,,,,,,
+C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/UAT.v,1711625185,verilog,,C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/Entries.v,,UAT,,,,,,,,

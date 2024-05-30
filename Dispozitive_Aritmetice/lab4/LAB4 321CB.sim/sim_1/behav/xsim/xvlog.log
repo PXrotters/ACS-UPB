@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/Outputs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Outputs
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/UAT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UAT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/Entries.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Entries
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sources_1/new/Sum4Bits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sum4Bits
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.ip_user_files/bd/Sumator16Biti/sim/Sumator16Biti.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sumator16Biti
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.gen/sources_1/bd/Sumator16Biti/hdl/Sumator16Biti_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sumator16Biti_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/Desktop/322CD/lab4/LAB4 321CB.srcs/sim_1/new/simulare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ViataEoSimulare

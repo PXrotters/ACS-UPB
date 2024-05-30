@@ -1,0 +1,4 @@
+Running: xsim.dir/ViataEoSimulare_behav/xsimk.exe -simmode gui -wdb ViataEoSimulare_behav.wdb -simrunnum 0 -socket 61974
+Design successfully loaded
+Design Loading Memory Usage: 7452 KB (Peak: 7452 KB)
+Design Loading CPU Usage: 0 ms
