@@ -13,6 +13,7 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 - **💻 [IAP1-IDST](IAP1-IDST)**: Laboratoare pentru cursul de Informatică Aplicată.
 - **💻 [PA-Lab](PA-Lab)**: Laboratoare pentru cursul de Proiectarea Algoritmilor.
 - **💻 [SDA-Lab1-6](SDA-Lab1-6)** și **💻 [SDA-Lab7-12](SDA-Lab7-12)**: Laboratoare pentru cursul de Structuri de Date și Algoritmi.
+- **💻 [Dispozitive_Aritmetice](Dispozitive_Aritmetice)** și **💻 [Pipeline_SOC](Pipeline_SOC)**: Laboratoare pentru cursul de Structura și Organizarea Calculatoarelor (CN1).
 
 ### 📁 Teme
 - **📝 [Tema1_IOCLA](Tema1_IOCLA)**, **📝 [Tema2_IOCLA](Tema2_IOCLA)**: Teme pentru cursul de Introducere în Organizarea Calculatoarelor și Limbaje de Asamblare.
@@ -23,6 +24,7 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 - **📝 [Tema1_PCLP](Tema1_PCLP)**, **📝 [Tema3_PCLP](Tema3_PCLP)**: Teme pentru cursul de Programarea Calculatoarelor și Limbaje de Programare 1.
 - **📝 [Tema1_PCOM](Tema1_PCOM)**, **📝 [Tema2_PCOM](Tema2_PCOM)**, **📝 [Tema4_PCOM](Tema4_PCOM)**: Teme pentru cursul de Protocoale de Comunicații.
 - **📝 [Tema_MN](Tema_MN)**: Temă pentru cursul de Metode Numerice.
+- **📝 [Tema1_SOC](Tema1_SOC)**, **📝 [Tema2_SOC](Tema2_SOC)**: Teme pentru cursul de Structura și Organizarea Calculatoarelor (CN1).
 
 ## ℹ️ Descriere și Informații Suplimentare
 Acest repository este organizat pentru a oferi o referință clară și ușor de navigat a diverselor proiecte și lucrări realizate pe parcursul studiilor universitare. Fiecare director conține instrucțiuni și fișiere relevante pentru temele și laboratoarele respective.
