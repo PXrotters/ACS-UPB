@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat May 11 13:30:54 2024
+# Process ID: 10368
+# Current directory: C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25368 C:\Users\Ilie Nicolai\Desktop\Rezolvari + Test Laborator\Lab5\Lab5.xpr
+# Log file: C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/vivado.log
+# Journal file: C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5\vivado.jou
+# Running On: DESKTOP-0TLBRID, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/aduna_scade_mantisele.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/aduna_scade_mantisele.v}}
+file delete -force {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/aduna_scade_mantisele.v}
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ajustare_exponent.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ajustare_exponent.v}}
+file delete -force {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ajustare_exponent.v}
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/alege_exponent.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/alege_exponent.v}}
+file delete -force {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/alege_exponent.v}
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/alinierea_mantiselor.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/alinierea_mantiselor.v}}
+file delete -force {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/alinierea_mantiselor.v}
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/compara_exponentii_prin_scadere.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/concatenare.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/exponent_reg1.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/exponent_reg2.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/exponentii_reg1.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisa_reg2.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisa_reg3.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisele_reg1.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisele_reg4.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/normalizare.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/op_reg.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/op_reg2.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/compara_exponentii_prin_scadere.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/concatenare.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/exponent_reg1.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/exponent_reg2.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/exponentii_reg1.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisa_reg2.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisa_reg3.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisele_reg1.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisele_reg4.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/normalizare.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/op_reg.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/op_reg2.v}}
+file delete -force {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/compara_exponentii_prin_scadere.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/concatenare.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/exponent_reg1.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/exponent_reg2.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/exponentii_reg1.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisa_reg2.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisa_reg3.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisele_reg1.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mantisele_reg4.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/normalizare.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/op_reg.v} {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/op_reg2.v}
+close_project
+open_project {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source simulare_virgula_mobila.tcl
+close_sim

@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat May 11 10:30:50 2024
+# Process ID: 28284
+# Current directory: C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9732 C:\Users\Ilie Nicolai\Desktop\Rezolvari + Test Laborator\Lab5\Lab5.xpr
+# Log file: C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/vivado.log
+# Journal file: C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5\vivado.jou
+# Running On: DESKTOP-0TLBRID, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg1_mantise.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg1_mantise.v}}
+close [ open close_sim
+Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod7_concat.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod7_concat.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/get_op.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/get_op.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg2_exp.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg2_exp.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg1_exp.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg1_exp.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg1_exps.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg1_exps.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod5_add_diff_mantise.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod5_add_diff_mantise.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg3_mantisa.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg3_mantisa.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod1_comp_exp.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod1_comp_exp.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/transfer_op.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/transfer_op.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod4_alin_mantise.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod4_alin_mantise.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod3_adj_exp.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod3_adj_exp.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg4_mantise.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg4_mantise.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg2_mantisa.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/reg2_mantisa.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod2_alege_exp.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod2_alege_exp.v}}
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod6_norm.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/mod6_norm.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_add.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source sim_add.tcl
+close_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_add.tcl
+close_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_add.tcl
+close_sim
+launch_simulation
+source sim_add.tcl
+close_sim
+update_compile_order -fileset sources_1
+set_property top ad_scd_virgula_mobila [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_add.tcl
+close_sim
+set_property top simulare_virgula_mobila [get_filesets sim_1]
+launch_simulation
+source simulare_virgula_mobila.tcl
+close_sim
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/suma_diferenta_float.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/suma_diferenta_float.v}}
+file delete -force {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/suma_diferenta_float.v}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ad_sc_virgula_mobila.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ad_sc_virgula_mobila.v}}
+set_property top ad_sc_virgula_mobila [current_fileset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ad_sc_virgula_mobila.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ad_sc_virgula_mobila.v}}
+file delete -force {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ad_sc_virgula_mobila.v}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ad_sc_virgula_mobila.v} w ]
+add_files {{C:/Users/Ilie Nicolai/Desktop/Rezolvari + Test Laborator/Lab5/Lab5.srcs/sources_1/new/ad_sc_virgula_mobila.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ad_sc_virgula_mobila [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+undo
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ad_sc_virgula_mobila [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+update_compile_order -fileset sources_1
+set_property top ad_scd_virgula_mobila [current_fileset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property top ad_sc_virgula_mobila [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+source simulare_virgula_mobila.tcl
+close_sim
