@@ -1,86 +1,89 @@
-Lemnaru Mihai-Daniel
-322 CD
+# 🖥️ Proiect: Algoritmi pentru Probleme Diverse
 
-PROBLEMA 1 : ALIMENTARE SERVERE
+**Lemnaru Mihai-Daniel**  
+**Grupa: 322 CD**
 
-DESCRIERE IMPLEMENTARE:
-optimalMaxPower - Metoda care ne ajuta sa calculam puterea maxima in functie de un factor ce apartine intervalului cu capatul din stanga cel mai mic element din vectorul curent si capatul din dreapta cel mai mare din vectorul curent. Aceasta putere maxima o reprezinta minimul dintre toate alimentarile cu factorul curent.
+---
 
-binarySearch - Metoda care ne ajuta sa gasim puterea maxima optima, prin gasirea unui factor optim. Initial setam capetele intervalului de cautare pe urma incepem sa aplicam algoritmul cautarii binare. Setam mijlocul intervalului curent, caruia ii calculam puterea de calcul maxima folosind metoda descrisa anterior. Pe urma vom calcula puterea si pentru vecinii mijlocului curent (-1, +1, -0.5, +0.5) pentru a sti in care parte a intervalului continuam cautarea binara. Verificam sa vedem daca mijlocul calculat este rotunjit, caz in care ne vom muta fie in intervalul (middle + 1, right), fie in (left, middle - 1) sau in caz contrar cand ne vom muta in unul din intervalele (middle + 0.5, right) sau (left, middle - 0.5). Daca puterea maxima calculata pentru vecini nu este mai optima (mai mare), decat a mijlocului inseamna ca aceea este valoarea cautata.
+## 📋 Probleme
 
-main - Citirea datelor de intrarea si afisarea rezultatului
+### 1️⃣ Problema 1: Alimentare Servere
 
+#### 📖 Descriere Implementare:
 
-COMPLEXITATE:
-optimalMaxPower - O(N)  -> Parcurgem tot vectorul de puteri pentru a afla puterea maxima
-binarySearch - O(NlogN) -> O(2N) = O(N) pentru a parcurge vectorul curent de 2 ori in gasirea capetelor intervalului de cautare
-			-> O(logN) pentru impartirea intervalului in jumatate
-			-> O(5N) = O(N) ce reprezinta costul apelurilor functiei optimalMaxPower in cadrul buclei repetitive
-main - O(NlogN) 	-> O(2N) = O(N) pentru citirea vectorilor putere si curent
-			-> O(NlogN) apelul binarySearch
-COMPLEXITATE TOTALA - O(NlogN)
+- **`optimalMaxPower`**: Metodă care calculează puterea maximă în funcție de un factor din intervalul cu capătul din stânga cel mai mic element din vectorul curent și capătul din dreapta cel mai mare din vectorul curent. Această putere maximă este minimul dintre toate alimentările cu factorul curent.
+- **`binarySearch`**: Metodă care găsește puterea maximă optimă prin căutarea unui factor optim. Aplicăm algoritmul căutării binare, setând mijlocul intervalului curent și calculând puterea maximă pentru vecinii mijlocului curent pentru a decide în ce parte continuăm căutarea.
+- **`main`**: Citește datele de intrare și afișează rezultatul.
 
+#### ⏳ Complexitate:
 
+- **`optimalMaxPower`**: `O(N)` -> Parcurgem vectorul pentru a afla puterea maximă.
+- **`binarySearch`**: `O(N log N)` -> `O(2N) = O(N)` pentru parcurgerea vectorului, `O(log N)` pentru împărțirea intervalului, `O(5N) = O(N)` pentru apelurile metodei `optimalMaxPower`.
+- **`main`**: `O(N log N)` -> `O(2N) = O(N)` pentru citirea vectorilor, `O(N log N)` pentru apelul `binarySearch`.
+- **Complexitate Totală**: `O(N log N)`
 
-PROBLEMA 2 : COLORARE
+---
 
-DESCRIERE IMPLEMENTARE:
-fastExp - Metoda care ne ajuta sa calculam rapid exponentierea modulara, folosind o abordare de tip Divide et Impera. Primeste 2 parametrii base si exp realizand o exponentiere recursiva pentru a calcula base^(exp/2). Pe urma caluleaza patratul acestui rezultat, pentru a obtine rezultatul final al calculului base^exp.
+### 2️⃣ Problema 2: Colorare
 
-main - Citeste numarul natural K si prima pereche de forma "X T" pentru care calculeaza suma tuturor posibilitatilor de colorare in functie de tipul lui T (orizontal sau vertical). Se retine tipul lui T dupa care incepem sa citim si restul perechilor, calculand suma posibilitatilor de colorare in functie de T tinand cont de "prev_T" pentru a sti in cate moduri se poate realiza colorarea.
+#### 📖 Descriere Implementare:
 
+- **`fastExp`**: Metodă pentru calculul rapid al exponentierii modulare folosind Divide et Impera. Realizează o exponentiere recursivă și calculează pătratul rezultatului.
+- **`main`**: Citește numărul natural `K` și prima pereche de forma `X T`, calculează suma tuturor posibilităților de colorare în funcție de tipul `T`.
 
-COMPLEXITATE:
-fastExp - O(log(exp)) -> se realizeaza apelarea recursiva cu exp/2
-main - O(Klog(exp))   -> O(K) parcurgerea grupurilor de input
-		      -> O(log(exp)) pentru apelarea fastExp, cu exp cel mai mare dintre (X-1) % (MOD-1)
-COMPLEXITATE TOTALA - O(log(exp))
+#### ⏳ Complexitate:
 
+- **`fastExp`**: `O(log(exp))` -> Apel recursiv cu `exp/2`.
+- **`main`**: `O(K log(exp))` -> `O(K)` pentru parcurgerea grupurilor de input, `O(log(exp))` pentru apelul `fastExp`.
+- **Complexitate Totală**: `O(K log(exp))`
 
+---
 
-PROBLEMA 3 : COMPRESIE
+### 3️⃣ Problema 3: Compresie
 
-DESCRIERE IMPLEMENTARE:
-compression - Metoda care ne ajuta sa retinem compresia a doua siruri de numere. Foloseste o abordare de tip Greedy, folosind 2 sume partiale pentru fiecare din siruri. Initial sumele retin primele 2 valori din siruri, pe urma se verifica daca prima suma e mai mica ca a doua anavsam in primul sir altfel avansam in al doilea (crestem sumele). Daca cele 2 sume partiale devin egale, valoarea respectiva se pune in sirul final.
+#### 📖 Descriere Implementare:
 
-main - Citeste cele 2 siruri, realizeaza compresia (daca se poate -> sumele sirurilor initiale trebuie sa fie egala) si afiseaza lungimea sirului rezultat sau -1 daca compresia nu a putut fi efectuata.
+- **`compression`**: Metodă pentru reținerea compresiei a două șiruri de numere folosind o abordare Greedy cu sume parțiale.
+- **`main`**: Citește cele două șiruri, realizează compresia și afișează lungimea șirului rezultat sau `-1` dacă nu se poate efectua compresia.
 
+#### ⏳ Complexitate Totală:
 
-COMPLEXITATE TOTALA - O(n+m) -> Citirea si iterarea prin ambele siruri de numere (n - lungimea primului sir, m - lungimea celui de-al doilea sir)
+- `O(n + m)` -> Citirea și iterarea prin ambele șiruri de numere (`n` - lungimea primului șir, `m` - lungimea celui de-al doilea șir).
 
+---
 
+### 4️⃣ Problema 4: Criptat
 
-PROBLEMA 4 : CRIPTAT
+#### 📖 Descriere Implementare:
 
-DESCRIERE IMPLEMENTARE:
-generateEncryptedPassword - Metoda care creaza o parola folosind o lista de cuvinte si un caracter. Iteram prin cuvintele din lista retinand de cate ori apare caracterul dat ca parametru in cuvantul curent. Pe urma, retinem lungimea potentiala a parolei (care poate fi de 10^4 -> suma lungimilor cuvintelor) si incepem sa iteram de la acea pozitie prin vectorul nostru dinamic. Verificam daca cuvantul poate fi adaugat la lungimea parolei (ori avem deja o lungime intermediara la acea pozitie ori nu am adaugat niciun cuvant pana acum). Astfel, se calculeaza noua lungime a parolei criptate adaugand lungimea cuvantului curent la lungimea potentiala, iar lungimea curenta se actualizeaza cu maximul dintre lungimea intermediara anterioara si suma lungimii intermediare la pozitia lungimii potentiale cu numarul de aparitii ale caracterului dominant. Apoi se verifica daca lungimea curenta a parolei este mai mare decat jumatate din noua lungime si daca aceasta lungime este mai mare decat lungimea maxima a parolei determinate anterior, caz in care se actualizeaza valoarea lungimii maxime a parolei criptate.
+- **`generateEncryptedPassword`**: Metodă care creează o parolă folosind o listă de cuvinte și un caracter. Calculează lungimea potențială a parolei și determină cea mai mare parolă posibilă.
+- **`main`**: Citește cuvintele din fișier și actualizează frecvența caracterelor într-un HashMap. Generează cea mai bună parolă curentă folosind `generateEncryptedPassword` și reține lungimea celei mai mari parole.
 
-main - Citeste cuvintele din fisier, iar pentru fiecare caracter din cuvantul respectiv se actualizeaza frecventa acestuia intr-un HashMap (daca valoarea acestuia exista in mapa, valoarea asociata e incrementata cu 1, altfel se adauga o noua intrare in mapa cu valoarea 1). Se retin caracterele gasite din mapa intr-un ArrayList de caractere, dupa care iteram prin acestea si generam cea mai buna parola curenta folosind generateEncryptedPassword, iar la final retinem lungimea celei mai mari parole gasite in momentul curent.
+#### ⏳ Complexitate:
 
+- **`generateEncryptedPassword`**: `O(N * L)` -> Parcurgerea listei de cuvinte pentru numărarea aparițiilor caracterului.
+- **`main`**: `O(N * L)` -> Citirea datelor de intrare și parcurgerea fiecărui caracter, plus parcurgerea tuturor caracterelor pentru generarea parolei.
+- **Complexitate Totală**: `O(N * L)`
 
-COMPLEXITATE:
-generateEncryptedPassword - O(N*L) -> Parcurgerea listei de cunvinte pentru care se parcurge intreaga parola criptata pentru a numara aparitiile caracterului 
-main - O(N*L) -> O(N*L) citirea datelor de intrare si parcurgerea fiecarui caracter din fieacare cuvant
-	      -> 8 * O(N*L) parcurgerea tuturor caracterelor din lista de caractere, pentru care generam parola criptata cu generateEncryptedPassword (cel mult 8 caractere distincte)
-COMPLEXITATE TOTALA - O(N*L)
+---
 
+### 5️⃣ Problema 5: Oferta
 
+#### 📖 Descriere Implementare:
 
-PROBLEMA 5 : OFERTA
+- **`halfPrice` și `fullPrice`**: Metode care calculează prețul obținut prin gruparea produselor cu reducere de 50% sau 100%.
+- **`minIndex`**: Metodă care determină indexul minim al unei liste.
+- **`generateCombinations`**: Metodă care generează toate combinațiile posibile ale produselor pentru a obține prețul minim.
+- **`calculateOfferPrice`**: Metodă care citește datele din fișier și calculează prețul ofertei. Stochează toate combinațiile de prețuri posibile și returnează prețul minim.
+- **`main`**: Scrie rezultatul obținut în fișierul de ieșire.
 
-DESCRIERE IMPLEMETARE:
-halfPrice si fullPrice - Metode care calculeaza pretul obitnut prin gruparea produselor cate 2 cu reducere de 50% pentru cel mai ieftin produs sau cate 3 cu reducere de 100% pentru cel mai ieftin produs.
+#### ⏳ Complexitate:
 
-minIndex - Metoda care determina indexul minim al unei liste.
+- **`halfPrice` și `fullPrice`**: `O(1)`
+- **`minIndex`**: `O(N)`
+- **`generateCombinations`, `calculateOfferPrice` și `main`**: `O(N * K)`
+- **Complexitate Totală**: `O(N * K)`
 
-generateCombinations - Metoda care genereaza toate combinatiile posibile ale produselor pentru a obtine pretul minim, luand in considerare ofertele existente. Initializam o lista de indici pentru a urmarii starea combinarii preturilor. Dupa care verificam daca nu s-a atins numarul dorit de preturi minimie si daca exista inca preturi disponibile pentru a forma combinatii. Pentru fiecare combinatie, se calcueaza suma preturilor conform ofertei si se adauga intr-o lista. Pe urma, se determina indexul combinatiei cu suma minima si actualizam indicii corespunzatori combinarii de preturi cu suma minima. La final se adauga suma minma in matricea de preturi intermediare daca aceasta nu exista deja.
+---
 
-calculateOfferPrice - Metoda care citeste datele din fisier si calculeaza pretul ofertei. Initial citeste toate datele din fisier, iar apoi se verifica daca avem un singur produs si dorim suma respectiva intoarcem pretul produsului, altfel daca avem un singur produs si vrem o suma care nu poate fi calculata din cauza numarului de produse intoacem -1. Initializam o lista de liste (matrice) pentru a stoca toate combinatiile de preturi posibile. Se adauga in dp preturile minime pentru cazurile particulare (0, 1 sau 2 produse), pe urma daca vrem o suma minima diferita de prima (K = 1) adaugam suma preturilor primelor 2 produse in lista de preturi intermediare. Iteram prin restul produselor ramase adaugand de fiecare data o noua lista in dp si apeland generateCominations pentru a calcula combinatiile de preturi. La final verificam daca numarul de preturi minime dispobinbilie pentru toate produsele este mai mic decat suma dorita, caz in care insemna ca nu exista suficiente preturi disponibile pentru a satisface cerinta sau cand numarul de preturi minime disponibile e suficient de mare sau egal cu numarul minim de preturi dorite, introcand pretul minim al ofertei.
-main - Metoda care scrie rezultatul obtinut in fisierul de iesire.
-
-
-COMPLEXITATE:
-halfPrice si fullPrice - O(1)
-minIndex - O(N)
-generateCombinations, calculateOfferPrice si main - O(N*K)
-COMPLEXITATE TOTALA - O(N*K)
+✍️ **Documentația este realizată pentru a facilita înțelegerea și utilizarea algoritmilor descriși.**
