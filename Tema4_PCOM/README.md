@@ -44,7 +44,7 @@ Acest proiect reprezintă un client HTTP capabil să comunice cu un server care 
 
 ### Cum să folosești
 
-Uite-te în Checker.md
+Vezi **[Checker.md](Checker.md)**
 
 ### Concluzie
 
