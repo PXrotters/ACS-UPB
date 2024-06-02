@@ -1,4 +1,4 @@
-# 🖥️ Proiect: Algoritmi pentru Probleme Diverse
+# 🖥️ Tema 1 PA
 
 **Lemnaru Mihai-Daniel**  
 **Grupa: 322 CD**
