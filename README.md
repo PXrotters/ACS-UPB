@@ -62,10 +62,10 @@ Acest repository este organizat pentru a oferi o referință clară și ușor de
 ### 🛠️ Cum să folosești acest repository
 1. **Clonează repository-ul**: 
     ```bash
-    git clone https://github.com/PXrotters/Facultate
+    git clone https://github.com/PXrotters/ACS-UPB
     ```
 2. **Navighează la directorul dorit**:
     ```bash
-    cd Projects/Tema1_SO/assignment-mini-libc
+    cd Projects/Tema1_SO/Memory-allocator
     ```
 3. **Urmează instrucțiunile din fișierul README al fiecărui proiect sau temă**.
