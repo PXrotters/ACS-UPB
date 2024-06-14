@@ -33,7 +33,7 @@ Acest repository este organizat pentru a oferi o referință clară și ușor de
 ### 🛠️ Cum să folosești acest repository
 1. **Clonează repository-ul**: 
     ```bash
-    git clone https://github.com/PXrotters/Projects
+    git clone https://github.com/PXrotters/Facultate
     ```
 2. **Navighează la directorul dorit**:
     ```bash
