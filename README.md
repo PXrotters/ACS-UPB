@@ -5,18 +5,18 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 ## 📂 Structura Repository-ului
 
 ### 📁 Proiecte
-- **🛠️ [Mini-Libc](Mini-Libc)**: Proiect din cadrul cursului de Sisteme de Operare, ce implică implementarea unei mini biblioteci asemănătoare cu libc.
-- **🛠️ [Memory-allocator](Memory-allocator)**: Proiect din cadrul cursului de Sisteme de Operare, ce implică alocarea memoriei.
-- **🛠️ [Mini-shell](Mini-shell)**: Proiect din cadrul cursului de Sisteme de Operare, ce implică implementarea unui mini interpretor de comenzi.
+- **🛠️ [Mini-Libc](Mini-Libc)**: Proiect din cadrul cursului de *Sisteme de Operare*, ce implică implementarea unei mini biblioteci asemănătoare cu libc.
+- **🛠️ [Memory-allocator](Memory-allocator)**: Proiect din cadrul cursului de *Sisteme de Operare*, ce implică alocarea memoriei.
+- **🛠️ [Mini-shell](Mini-shell)**: Proiect din cadrul cursului de *Sisteme de Operare*, ce implică implementarea unui mini interpretor de comenzi.
 
 ---
 
 ### 📁 Laboratoare
-- **💻 [IAP1-IDST](IAP1-IDST)**: Laboratoare pentru cursul de Informatică Aplicată.
-- **💻 [PA-Lab](PA-Lab)**: Laboratoare pentru cursul de Proiectarea Algoritmilor.
-- **💻 [SDA-Lab](SDA-Lab)**: Laboratoare pentru cursul de Structuri de Date și Algoritmi.
-- **💻 [Laboratoare-MS](Laboratoare-MS)**: Laboratoare pentru cursul de Modelare și Simulare.
-- **💻 [Dispozitive_Aritmetice](Dispozitive_Aritmetice)** și **💻 [Pipeline](Pipeline)**: Laboratoare pentru cursul de Structura și Organizarea Calculatoarelor (CN1).
+- **💻 [IAP1-IDST](IAP1-IDST)**: Laboratoare pentru cursul de *Informatică Aplicată*.
+- **💻 [PA-Lab](PA-Lab)**: Laboratoare pentru cursul de *Proiectarea Algoritmilor*.
+- **💻 [SDA-Lab](SDA-Lab)**: Laboratoare pentru cursul de *Structuri de Date și Algoritmi*.
+- **💻 [Laboratoare-MS](Laboratoare-MS)**: Laboratoare pentru cursul de *Modelare și Simulare*.
+- **💻 [Dispozitive_Aritmetice](Dispozitive_Aritmetice)** și **💻 [Pipeline](Pipeline)**: Laboratoare pentru cursul de *Structura și Organizarea Calculatoarelor*.
 
 ---
 
