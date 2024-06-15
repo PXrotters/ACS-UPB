@@ -66,6 +66,6 @@ Acest repository este organizat pentru a oferi o referință clară și ușor de
     ```
 2. **Navighează la directorul dorit**:
     ```bash
-    cd Projects/Tema1_SO/Memory-allocator
+    cd ACS-UPB/Memory-allocator
     ```
 3. **Urmează instrucțiunile din fișierul README al fiecărui proiect sau temă**.
