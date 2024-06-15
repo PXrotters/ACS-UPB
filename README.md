@@ -21,7 +21,7 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 ---
 
 ### 📁 Teme
-#### Organizarea Calculatoarelor și Limbaje de Asamblare (*IOCLA*)
+#### Introducere în Organizarea Calculatoarelor și Limbaje de Asamblare (*IOCLA*)
 - **📝 [Tema1_IOCLA](Tema1_IOCLA)**: ***Memory Management***
 - **📝 [Tema2_IOCLA](Tema2_IOCLA)**: ***Low-Level Optimization***
 
