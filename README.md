@@ -1,6 +1,6 @@
 # 📚 Facultate - Proiecte, Laboratoare și Teme
 
-Acest repository conține o colecție de proiecte, laboratoare și teme realizate pe parcursul studiilor universitare.
+Acest repository conține o colecție de proiecte, laboratoare și teme realizate în perioada facultății.
 
 ## 📂 Structura Repository-ului
 
@@ -57,7 +57,7 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 - **📝 [Tema2_SOC](Tema2_SOC)**: ***16-Bit Prefix Adder in VerilogHDL***
 
 ## ℹ️ Descriere și Informații Suplimentare
-Acest repository este organizat pentru a oferi o referință clară și ușor de navigat a diverselor proiecte și lucrări realizate pe parcursul studiilor universitare. Fiecare director conține instrucțiuni și fișiere relevante pentru temele și laboratoarele respective.
+Acest repository este organizat pentru a oferi o referință clară și ușor de navigat a diverselor proiecte și lucrări realizate în perioada facultății. Fiecare director conține instrucțiuni și fișiere relevante pentru temele și laboratoarele respective.
 
 ### 🛠️ Cum să folosești acest repository
 1. **Clonează repository-ul**: 
