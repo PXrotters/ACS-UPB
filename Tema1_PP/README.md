@@ -6,7 +6,7 @@
 
 Această temă implică implementarea algoritmului de regresie liniară folosind Scala, cu un accent pe stilul de programare funcțional. Regresia liniară este o tehnică de Machine Learning utilizată pentru a aproxima relația liniară între o variabilă dependentă și una sau mai multe variabile independente.
 
-### Ce este Regresia Liniară?
+## Ce este Regresia Liniară?
 
 Regresia liniară presupune găsirea unei drepte (în cazul unidimensional) sau a unui plan (în cazul bidimensional) care minimizează suma pătratelor diferențelor dintre valorile estimate și cele observate. Într-un caz general, ecuația pentru regresia liniară este de forma: y = a * x + b, unde `y` este variabila dependentă, `x` este variabila independentă, iar `a` și `b` sunt coeficienții care trebuie determinați.
 
