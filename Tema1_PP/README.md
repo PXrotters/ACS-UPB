@@ -41,3 +41,21 @@ Implementarea metodei de regresie care utilizează datele de intrare specificate
 #### 3.2. Plotting 📊
 
 Generarea unui grafic pentru a vizualiza performanța modelului de regresie pe datele de testare.
+
+## Testare 🧪
+
+Implementările din această temă sunt validate folosind ScalaCheck pentru generarea de date random și verificarea proprietăților, și Munit pentru teste unitare.
+
+### ScalaCheck
+
+- Verifică corectitudinea implementărilor de Dataset și Matrix prin generarea automată a diverselor scenarii de date.
+
+### Munit
+
+- Testează algoritmul de Regresie Liniară pentru a asigura comportamentul corect în diferite condiții de intrare.
+
+### Cum să rulezi testele
+
+Folosește comanda `sbt test` în directorul principal al proiectului pentru a executa toate testele.
+
+Adăugarea de teste suplimentare este recomandată pentru acoperirea extinsă a funcționalităților implementate.
