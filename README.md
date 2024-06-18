@@ -14,6 +14,7 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 ### 📁 Laboratoare
 - **💻 [IAP1-IDST](IAP1-IDST)**: Laboratoare pentru cursul de *Informatică Aplicată*.
 - **💻 [PA-Lab](PA-Lab)**: Laboratoare pentru cursul de *Proiectarea Algoritmilor*.
+- **💻 [PP-Lab](PP-Lab)**: Laboratoare pentru cursul de *Paradigme de Programare*.
 - **💻 [SDA-Lab](SDA-Lab)**: Laboratoare pentru cursul de *Structuri de Date și Algoritmi*.
 - **💻 [Laboratoare-MS](Laboratoare-MS)**: Laboratoare pentru cursul de *Modelare și Simulare*.
 - **💻 [Dispozitive_Aritmetice](Dispozitive_Aritmetice)** și **💻 [Pipeline](Pipeline)**: Laboratoare pentru cursul de *Structura și Organizarea Calculatoarelor*.
