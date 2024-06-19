@@ -12,7 +12,7 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 ---
 
 ### 📁 Laboratoare
-- **💻 [IAP1-IDST](IAP1-IDST)**: Laboratoare pentru cursul de *Informatică Aplicată*.
+- **💻 [IAP1](IAP1)**: Laboratoare pentru cursul de *Informatică Aplicată*.
 - **💻 [PA-Lab](PA-Lab)**: Laboratoare pentru cursul de *Proiectarea Algoritmilor*.
 - **💻 [PP-Lab](PP-Lab)**: Laboratoare pentru cursul de *Paradigme de Programare*.
 - **💻 [SDA-Lab](SDA-Lab)**: Laboratoare pentru cursul de *Structuri de Date și Algoritmi*.
