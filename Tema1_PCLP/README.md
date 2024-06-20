@@ -29,9 +29,13 @@ Proiectul are ca scop să ofere soluții pentru diverse scenarii de operații ma
 ## 🚀 Cum să folosești
 
 1. Compilează codul.
+```bash
+make run
+```
 2. Rulează programul.
-3. Introdu numărul de elemente și valorile vectorului.
-4. Introdu șirul de caractere reprezentând operațiile dorite.
+```bash
+./check.sh
+```
 
 ---
 
