@@ -1,0 +1,17 @@
+
+Run cpplint
+
+./check.sh: line 84: cpplint: command not found
+
+Run clang-tidy
+
+14 warnings generated.
+27 warnings generated.
+40 warnings generated.
+53 warnings generated.
+66 warnings generated.
+79 warnings generated.
+92 warnings generated.
+105 warnings generated.
+Suppressed 105 warnings (104 in non-user code, 1 with check filters).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
