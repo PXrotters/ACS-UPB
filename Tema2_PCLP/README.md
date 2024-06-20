@@ -1,7 +1,5 @@
 # ✈️ Tema 2: Avioane
 
----
-
 ## 🚀 Introducere
 ### Despre Avioane
 Avioanele pot fi de 2 tipuri:
@@ -9,8 +7,6 @@ Avioanele pot fi de 2 tipuri:
 
 ### Despre Obstacole
 Obstacolele sunt de dimensiune 1 x 1 şi sunt alese pentru a încurca adversarul.
-
----
 
 ## 📋 Cerinţe
 
@@ -27,11 +23,15 @@ void SolveTask1(void *info, int nr_avioane)
 
 Funcţia afişează informaţiile despre fiecare avion din info în ordine.
 
+---
+
 ### ✨ Task 2
 ```c
 void SolveTask2(void *info, int nr_avioane, int N, char **mat)
 ```
 Funcţia completează matricea mat cu caractere '*', unde se găsesc avioanele şi cu caractere '.', în caz contrar.
+
+---
 
 ### 🔄 Task 3
 ```c
@@ -39,11 +39,15 @@ void SolveTask3(void *info, int nr_avioane)
 ```
 Funcţia sortează avioanele conform criteriilor specifice şi afişează informaţiile sortate.
 
+---
+
 ### 🛡️ Task 4
 ```c
 void SolveTask4(void *info, int nr_avioane, int nr_obstacole, int *x, int *y, int N)
 ```
 Funcţia calculează câte avioane pot să se deplaseze în siguranţă până la marginea hărţii, fără a lovi vreun obstacol.
+
+---
 
 ### ⏳ Bonus: Task 5
 ```c
