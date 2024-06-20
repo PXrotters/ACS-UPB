@@ -1,4 +1,4 @@
-# 📈 Tema 1: Regresie Liniară
+# 📈 Tema 1: Linear Regression
 
 ## 📚 Cerințe de Stil
 - 🔄 Programare funcțională
