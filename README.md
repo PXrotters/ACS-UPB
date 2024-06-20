@@ -43,6 +43,7 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 
 #### Programarea Calculatoarelor și Limbaje de Programare 1 (*PCLP*)
 - **📝 [Tema1_PCLP](Tema1_PCLP)**: ***Calculator***
+- **📝 [Tema2_PCLP](Tema2_PCLP)**: ***Planes***
 - **📝 [Tema3_PCLP](Tema3_PCLP)**: ***Miniprocessor***
 
 #### Protocoale de Comunicații (*PCOM*)
