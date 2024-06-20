@@ -17,12 +17,12 @@ Extinderea programului pentru a citi operanzi de la tastatură, a decodifica ins
 
 ---
 
-### ⚙️ Bonus 1: Operanzi cu dimensiuni ciudate - *neimplementat*
+### ⚙️ Bonus 1: Operanzi cu dimensiuni ciudate
 Extinderea programului pentru a executa instrucțiuni ale căror operanzi pot avea dimensiuni variabile în intervalul [1, 16].
 
 ---
 
-### 🔄 Bonus 2: Precedenta operatorilor - *neimplementat*
+### 🔄 Bonus 2: Precedenta operatorilor
 Implementarea precedenței operatorilor astfel încât * și / au precedență egală între ei, dar mai mare decât + și -.
 
 ## 🚀 Comenzi de compilare și rulare
