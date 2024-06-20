@@ -1,0 +1,17 @@
+
+Run cpplint
+
+./check.sh: line 74: cpplint: command not found
+
+Run clang-tidy
+
+7 warnings generated.
+15 warnings generated.
+23 warnings generated.
+31 warnings generated.
+/mnt/c/Users/Mihaita Lemnaru/Facultate/Facultate/Tema3_PCLP/task4.c:116:35: error: narrowing conversion from 'long' to signed type 'int' is implementation-defined [cppcoreguidelines-narrowing-conversions,-warnings-as-errors]
+        operands[operandsIndex] = value;
+                                  ^
+Suppressed 30 warnings (30 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+1 warning treated as error

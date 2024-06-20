@@ -7,7 +7,6 @@ function init {
 
     TESTS_OUT=tests-out
     TESTS=tests
-    NUM_TESTS=10
 
     if [ ! -d ${TESTS_OUT} ]
     then
@@ -25,20 +24,21 @@ function print_result {
 }
 
 function check_task {
-    # check_task(task_no, exe_name, test_score)
+    # check_task(task_no, exe_name, test_score, num_tests)
     echo "................................TASK $1................................."
     exe=$2
-    TASK_TESTS="${TESTS}/$2"
+    TASK_TESTS="${TESTS}/t$1"
     TASK_TESTS_OUT="${TESTS_OUT}/$2"
     test_score=$3
+    NUM_TESTS=$4
 
     mkdir -p ${TASK_TESTS_OUT}
 
-    for (( i = 0; i < ${NUM_TESTS}; ++i))
+    for (( i = 1; i <= ${NUM_TESTS}; i++))
     do
-        in_file="${TASK_TESTS}/input/f_$i.in"
-        ref_file="${TASK_TESTS}/ref_output/f_$i.out"
-        out_file="${TASK_TESTS_OUT}/$i.out"
+        in_file="${TASK_TESTS}/t$1_$i.txt"
+        ref_file="${TASK_TESTS}/ref_output/r$1_$i.txt"
+        out_file="${TASK_TESTS_OUT}/$i.txt"
 
         test_id=$i
 
@@ -60,10 +60,10 @@ function check_readme {
 
     ls . | grep -i "readme" &>/dev/null
     if [ $? -eq 0 ]; then
-        print_result "Test README" "0/0p passed"
+        print_result "Test README" "$1/10p passed"
+        let "total_score += $1"
     else
-        print_result "Test README" "-$1/0p failed"
-        let "total_score -= $1"
+        print_result "Test README" "0/10p failed"
     fi
 }
 
@@ -106,9 +106,10 @@ function check_style {
 
 function run_checker {
     init
-    check_task 1 task1 5 # task_no=1, exe_name=task1, test_score=5 - total=50 pct
-    check_task 2 task2 5 # task_no=2, exe_name=task2, test_score=5 - total=50 pct
-    check_task 3 task3 5 # task_no=1, exe_name=task1, test_score=5 - total=50 pct
+    check_task 1 task1 1 50 # task_no=1, exe_name=task1, test_score=1 - total=50 pct
+    check_task 2 task2 1 50 # task_no=2, exe_name=task2, test_score=1 - total=50 pct
+    check_task 3 task3 4 5 # task_no=3, exe_name=task3, test_score=4 - total=20 pct
+    check_task 4 task4 4 5 # task_no=4, exe_name=task4, test_score=4 - total=20 pct
     check_readme 10 # 10 pct
     check_style
 

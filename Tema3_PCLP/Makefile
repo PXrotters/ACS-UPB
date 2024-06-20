@@ -1,37 +1,20 @@
-CFLAGS=-Wall -Werror
+CFLAGS=-lm
 
-.PHONY: clean
+all: task1 task2 task3 task4
 
-all: task1 task2 task3
+task1: task1.c
+	gcc task1.c $(CFLAGS) -o task1
 
-run: task1 task2 task3
-	@./check.sh
+task2: task2.c
+	gcc task2.c $(CFLAGS) -o task2
 
-task1: task1.o utils.o
-	gcc task1.o utils.o -o task1
+task3: task3.c
+	gcc task3.c $(CFLAGS) -o task3
 
-task1.o: task1.c utils.h
-	gcc $(CFLAGS) -c task1.c
 
-task2: task2.o utils.o
-	gcc task2.o utils.o $(CFLAGS) -o task2
+task4: task4.c
+	gcc task4.c $(CFLAGS) -o task4
 
-task2.o: task2.c utils.h
-	gcc $(CFLAGS) -c task2.c
-
-task3: task3.o utils.o
-	gcc task3.o utils.o $(CFLAGS) -o task3
-
-task3.o: task3.c utils.h
-	gcc $(CFLAGS) -c task3.c
-
-utils.o: utils.c utils.h
-	gcc $(CFLAGS) -c utils.c
-
-archive:
-	zip -r homework1.zip \
-	Makefile README \
-	*.c *.h
 
 clean:
-	rm -f task1 task2 task3 *.o
+	rm -f task1 task2 task3 task4

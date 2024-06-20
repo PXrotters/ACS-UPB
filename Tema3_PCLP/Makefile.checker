@@ -1,0 +1,34 @@
+.PHONY: all clean run pack build-pre build-post
+
+all: build-pre run build-post
+
+build-pre:
+
+build-post:
+
+run: build
+	@./check.sh
+
+build: task1 task2 task3 task4
+
+task1: Makefile
+	make -f Makefile task1 || echo "Task 1 not found"
+
+task2: Makefile
+	make -f Makefile task2 || echo "Task 2 not found"
+
+task3: Makefile
+	make -f Makefile task3 || echo "Task 3 not found"
+
+task4: Makefile
+	make -f Makefile task4 || echo "Task 4 not found"
+
+pack:
+	zip -r miniprocesor.zip tests/ \
+	Makefile.checker \
+	check.sh run_tests.sh parse.awk install-linters.sh
+
+clean:
+	rm -rf miniprocesor.zip tests-out
+	make -f Makefile clean
+
