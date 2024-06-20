@@ -1,4 +1,4 @@
-# 🎓 Tema 2 PP 2024
+# 🎓 Tema 2 PP 2024: Query Language
 
 ## 🛠️ Cerințe Tehnice
 - 🖥️ **Scala**: versiunea 3.3.1
