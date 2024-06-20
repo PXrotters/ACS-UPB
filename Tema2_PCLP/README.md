@@ -18,7 +18,7 @@ Datele sunt stocate într-un vector generic `void *info`, păstrând pentru fiec
 
 ### ✅ Task 1
 ```c
-void SolveTask1(void *info, int nr_avioane)
+void SolveTask1 (void *info, int nr_avioane)
 ```
 
 Funcţia afişează informaţiile despre fiecare avion din info în ordine.
@@ -27,7 +27,7 @@ Funcţia afişează informaţiile despre fiecare avion din info în ordine.
 
 ### ✨ Task 2
 ```c
-void SolveTask2(void *info, int nr_avioane, int N, char **mat)
+void SolveTask2 (void *info, int nr_avioane, int N, char **mat)
 ```
 Funcţia completează matricea mat cu caractere '*', unde se găsesc avioanele şi cu caractere '.', în caz contrar.
 
@@ -35,7 +35,7 @@ Funcţia completează matricea mat cu caractere '*', unde se găsesc avioanele �
 
 ### 🔄 Task 3
 ```c
-void SolveTask3(void *info, int nr_avioane)
+void SolveTask3 (void *info, int nr_avioane)
 ```
 Funcţia sortează avioanele conform criteriilor specifice şi afişează informaţiile sortate.
 
@@ -43,7 +43,7 @@ Funcţia sortează avioanele conform criteriilor specifice şi afişează inform
 
 ### 🛡️ Task 4
 ```c
-void SolveTask4(void *info, int nr_avioane, int nr_obstacole, int *x, int *y, int N)
+void SolveTask4 (void *info, int nr_avioane, int nr_obstacole, int *x, int *y, int N)
 ```
 Funcţia calculează câte avioane pot să se deplaseze în siguranţă până la marginea hărţii, fără a lovi vreun obstacol.
 
@@ -51,7 +51,7 @@ Funcţia calculează câte avioane pot să se deplaseze în siguranţă până l
 
 ### ⏳ Bonus: Task 5
 ```c
-void SolveTask5(void *info, int nr_avioane, int T, int nr_pct_coord, int *X, int *Y, int N)
+void SolveTask5 (void *info, int nr_avioane, int T, int nr_pct_coord, int *X, int *Y, int N)
 ```
 Funcţia afişează numărul de avioane în punctele date de coordonatele din X și Y pentru fiecare moment de timp de la 0 la T.
 
