@@ -28,8 +28,6 @@ Implementarea precedenței operatorilor astfel încât * și / au precedență e
 ## 🚀 Comenzi de compilare și rulare
 Pentru a compila și rula programele, folosiți Makefile-ul inclus. Exemple de comenzi:
 ```bash
-make task1
-./task1
-make task2
-./task2
+make all
+./check.sh
 ```
