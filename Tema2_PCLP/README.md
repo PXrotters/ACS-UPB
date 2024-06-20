@@ -62,3 +62,10 @@ Funcţia afişează numărul de avioane în punctele date de coordonatele din X 
 chmod +x install-linters.sh check.sh
 ./install-linters.sh
 ```
+
+## 🚀 Comenzi de compilare și rulare
+Pentru a compila și rula programele, folosiți Makefile-ul inclus. Exemple de comenzi:
+```bash
+make
+./check.sh
+```
