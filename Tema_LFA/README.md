@@ -68,4 +68,4 @@ Programul determină **lungimea optimă a prefixului** pentru a obține un regex
 - Testare regex: [regex101](https://regex101.com/)
 
 ## 👨‍💻 Autor
-📌 **Lemnaru Mihai-Daniel** - [@mihai-daniel](https://github.com/mihai-daniel)
+📌 **Lemnaru Mihai-Daniel** - [@mihai-daniel](https://github.com/PXrotters)
