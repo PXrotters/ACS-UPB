@@ -1,0 +1,65 @@
+1 2 3
+
+# Lemnaru Mihai-Daniel
+**Grupa: 331 CD**
+
+---
+
+### Cerinte:
+Implementarea functionalitatilor unui switch (Procesul de comutare, VLAN si STP).
+
+## Descrierea Temei
+
+### Functii
+
+#### `parse_ethernet_header`
+- **Descriere**: Functie care analizeaza antetul unui cadru Ethernet, returnand adresele MAC de destinatie si sursa, tipul EtherType, si ID-ul VLAN (daca exista un tag VLAN).
+
+#### `create_vlan_tag`
+- **Descriere**: Functie care creeaza un tag VLAN cu ID-ul specificat, utiliznd o valoare 0x8200 pentru a reprezenta EtherType-ul VLAN (similar IEEE 802.1Q).
+
+#### `send_bdpu_every_sec`
+- **Descriere**: Functie care trimite periodic BPDU-uri (la fiecare secunda) pe interfetele de retea ale switch-ului, dar doar daca switch-ul curent este root bridge. Este un ciclu infinit, pentru a trimite BPDU la fiecare secunda, conform protocolului STP.
+- **Implementare**: 
+    - Functia primeste ca parametru o lista de interfete disponibile pe switch.
+    - Se initializeza o bucla infinita, care va continua sa ruleze pana cand va fi intrerupta. Acest lucru sugereaza ca functia va trimite periodic BPDU-uri.
+    - Se verifica daca ID-ul root bridge-ului este egal cu ID-ul bridge-ului local. Daca aceasta conditie este adevarata, inseamna ca switch-ul curent este root bridge.
+    - Se construieste un prefix pentru BPDU (Bridge Protocol Data Unit) prin concatenarea MAC-ul de destinatie pentru BPDU, adresa MAC a switch-ului curent, lungimea header-ului LLC, continutul header-ului LLC si identificatorul protocolului.\
+    - Se convertesc ID-ul root bridge-ului, costul drumului catre root bridge si ID-ul local bridge-ului in bytes
+    - Se itereaza prin fiecare interfata si se verifica daca VLAN-ul asociat cu interfata curenta este de tip Trunk, convertind ID-ul interfetei in bytes si construind BDPU-ul complet prin concatenarea prefixului BDPU si a celorlalte componente convertite in bytes, adaugand si PADDING_BYTES pentru a completa BDPU-ul.
+    - La final se trimite BDPU-ul construit pe interfata curenta.
+
+#### `send_frame`
+- **Descriere**: Functie care trimite cadrul Ethernet pe portul specificat, apeland functia send_to_link.
+
+#### `load_switch_configuration`
+- **Descriere**: Functie care citeste configuratia switch-ului din fisierele din configs pentru a determina VLAN-urile asociate cu fiecare port si initializeaza starea porturilor.
+- **Implementare**:
+    - Primeste un parametru, care reprezinta identificatorul switch-ului pentru care se incarca configuratia.
+    - Se construieste calea fisierului de configurare si se initializeaza o variabila ce va stoca prioritate switch-ului care va fi citita din fisier.
+    - Se deschide fisierul in modul de citire si iteram prin fiecare linie din fisier pentru a procesa datele continute.
+    - Se imparte linia curenta in componente separate (token-uri) folosind metoda split(). Aceasta creeaza o lista de token-uri, unde fiecare element reprezinta un cuvant sau o valoare din linie, urmand sa se verifice daca linia contine un singur token, caz in care este interpretat ca fiind prioritar si se converteste intr-un numar intreg, altfel daca linia contine mai multe token-uri primele 2 sunt distribuite port-ului si VLAN-ului asociate acestuia.
+    - Se adauga o asociere intre port si vlan in dictionarul vlan_mapping, care stocheaza ce VLAN este asociat fiecarui port.
+    - Daca VLAN-ul este Trunk atunci starea portului este setata ca BLOCKED in dictionarul port_states. Altfel starea portului este setata ca DESIGNATED, indicand ca acesta este portul desemnat pentru a transmite cadrele pentru VLAN-ul sau.
+
+#### `main`
+- **Descriere**: Functia care implmenteaza functionalitatea switch-ului (Procesul de comutare, VLAN-ul si STP)
+- **Implementare**:
+    - Stocam ID-ul switch-ului, numarul maxim de interfata disponibil si prioritatea switch-ului.
+    - Creeam un interval de interfete care reprezinta fiecare interfata activa pe switch
+    - Setam local_bridge_ID cu prioritatea, ID-ul root brige-ului cu ID-ul local bridge-ului, indicand ca acest switch se considera momentan ca fiind root bridge si root_bridge_path_cost cu 0 (momentan nu exista niciun cost pentru a ajunge la root bridge)
+    - Se creeaza un thread nou, care va folosi functia send_bdpu_every_sec, ce va trimite mesaje BDPU la fiecare secunda. Argumentul args=(interfaces,), ii transmite functiei send_bdpu_every_sec lista interfetelor
+    - Switch-ul functioneaza in mod continuu, ascultand si procesand cadrele de date pe masura ce sunt primite.
+    - Se receptioneaza cadrul de pe o interfata returnand interfata de pe care a fost primit cadrul, continutul cadrului ca un sir de bytes si lungimea cadrului primit. Apoi se extrage adresa MAC de destinatie, adresa MAC sursa, tipul Ethernet si identificatorul VLAN din antetul Ethernet, urmand ca adresele destinatie si sursa sa fie transformate in format hexazecimal.
+    - Daca vlan_id este -1, cadrul nu este etichetat, asa ca atribuim un vlan_id corespunzator din vlan_mapping pentru aceasta interfata. Daca interfata nu este Trunk, se creeaza un cadru etichetat prin adaugarea unui tag VLAN. In caz contrar, daca vlan_id este deja definit, tagged_frame ramane nemodificat (cadrul original), iar untagged_frame exclude campul de tag VLAN.
+    - Switch-ul invata pe ce interfata se afla adresa MAC sursa si o adauga in tabela MAC.
+    - Daca adresa MAC de destinatie este 01:80:c2:00:00:00, cadrul este identificat ca fiind un BPDU (folosit in STP). 
+    - Se extrag ID-ul root bridge-ului, costul drumului si ID-ul bridge-ului sursa.
+    - Actualizam root bridge-ul daca data_root_bridge_ID este mai mic decat root_bridge_ID.
+    - Daca local_bridge_ID este acum root_bridge_ID, switch-ul blocheaza toate porturile neetichetate pentru a preveni buclele, iar portul root_port este setat la starea DESIGNATED. Daca root_port este blocat, atunci este schimbat in starea DESIGNATED.
+    - Se trimit BDPU-uri pe porturile Trunk, excluzand root_port.
+    - Daca data_root_bridge_ID este egal cu root_bridge_ID si cadrul BDPU a fost primit pe portul root_port si costul drumului calculat este mai mic decat costul drumului curent vom actualiza costul drumului root_bridge_path_cost. Altfel daca cadrul BDPU a fost primit pe un port diferit de root_port, inseamna ca acest port ar trebui sa devina DESIGNATED.
+    - Daca ID-ul bridge-ului care a trimis cadrul este egal cu ID-ul bridge-ului local, atunci switch-ul blocheaza portul pe care a primit acest cadru BDPU.
+    - Daca root bridge-ul este egal cu local_bridge_ID (aceste switch se considera root bridge) atunci toate porturile Trunk sunt setate in modul DESIGNATED, pentru a permite trimiterea BDPU-urilor in continuare.
+    - Daca destinatia nu este broadcast si se afla in tabela MAC, se verifica daca interfata asociata este trunk si se trimite cadrul etichetat sau neetichetat corespunzator.
+    - Daca cadrul nu are o destinatie specifica in tabela MAC, acesta este trimis pe toate interfetele, excluzand cea de pe care a venit. Daca VLAN-ul curent se potriveste, se trimite cadrul corespunzator.
