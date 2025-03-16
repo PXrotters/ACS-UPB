@@ -1,0 +1,16 @@
+#fisier input test, fisier output test (dfa), fisier output test (regex), punctaj.
+./inputs/input1.txt ./outputs_dfa/output1.txt ./outputs_regex/output1.txt 6
+./inputs/input2.txt ./outputs_dfa/output2.txt ./outputs_regex/output2.txt 6
+./inputs/input3.txt ./outputs_dfa/output3.txt ./outputs_regex/output3.txt 6
+./inputs/input4.txt ./outputs_dfa/output4.txt ./outputs_regex/output4.txt 6
+./inputs/input5.txt ./outputs_dfa/output5.txt ./outputs_regex/output5.txt 6
+./inputs/input6.txt ./outputs_dfa/output6.txt ./outputs_regex/output6.txt 6
+./inputs/input7.txt ./outputs_dfa/output7.txt ./outputs_regex/output7.txt 6
+./inputs/input8.txt ./outputs_dfa/output8.txt ./outputs_regex/output8.txt 6
+./inputs/input9.txt ./outputs_dfa/output9.txt ./outputs_regex/output9.txt 6
+./inputs/input10.txt ./outputs_dfa/output10.txt ./outputs_regex/output10.txt 6
+./inputs/input11.txt ./outputs_dfa/output11.txt ./outputs_regex/output11.txt 8
+./inputs/input12.txt ./outputs_dfa/output12.txt ./outputs_regex/output12.txt 8
+./inputs/input13.txt ./outputs_dfa/output13.txt ./outputs_regex/output13.txt 8
+./inputs/input14.txt ./outputs_dfa/output14.txt ./outputs_regex/output14.txt 8
+./inputs/input15.txt ./outputs_dfa/output15.txt ./outputs_regex/output15.txt 8

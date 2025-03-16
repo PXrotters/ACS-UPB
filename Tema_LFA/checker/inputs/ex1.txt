@@ -1,0 +1,7 @@
+3 2 4
+baed
+bece
+bace
+bacd
+aace
+

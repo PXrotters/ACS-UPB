@@ -1,0 +1,2 @@
+regex
+gynecop....c|.(((e.z|i.e)..|n(deri|(n|r|t)e..|ni..|.u..)|o.(c|e)..).....e|(e.z|n((g|t)e|ni|gr|.u)|o.c).......g|((a.l|e.(e|p)|i.e).|n(gen|se.|te(l|n|p)|ven|noc)|n.(a|i|r).|ote.|o.(f|g).)......n|(r|x).........n)|(.((a(ndy|.(f|r).)|e(.e|(c|n)t).|i((b|n)e|.l).|l.x.).|n((ca.|act).|(se(cu|p.)|ter.)|(f|v)e..|(n|s|t)i..|nu..)|n.(d|s|t)..|on(c(il|o.)|so.|tig)|o.(d|l|m|n|v)..).|pseudov|.y(me|gr)...|.(h|m|p|q|r).....)....s|...........(l|m|r|y)

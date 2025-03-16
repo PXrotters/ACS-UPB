@@ -1,0 +1,21 @@
+12 7 9
+ccaccccac
+acaccccac
+caaccccac
+abaccccac
+ccaccccbc
+ccacbccbc
+ccacbbcbc
+ccacabcbc
+ccbccccac
+ccbccccbc
+ccacbccac
+ccbacccac
+ccbcbccbc
+ccabcccac
+ccbbbccbc
+ccaccccbb
+ccbccccab
+abacbccac
+ccbaababc
+

@@ -1,0 +1,11 @@
+3 6 8
+sureties
+baronies
+rarefies
+barflies
+sardines
+carbides
+safeties
+rareties
+bakeries
+
