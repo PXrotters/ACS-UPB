@@ -58,6 +58,12 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 - **📝 [Tema1_SOC](Tema1_SOC)**: ***Mealy Automaton for Beverage and Food Vending***
 - **📝 [Tema2_SOC](Tema2_SOC)**: ***16-Bit Prefix Adder in VerilogHDL***
 
+#### Rețele locale de Calculatoare (*RL*)
+- **📝 [Tema_RL](Tema_RL)**: ***Switch Implementation***
+
+#### Limbaje formale și automate (*LFA*)
+- **📝 [Tema_LFA](Tema_LFA)**: ***Regex Generator***
+
 ## ℹ️ Descriere și Informații Suplimentare
 Acest repository este organizat pentru a oferi o referință clară și ușor de navigat a diverselor proiecte și lucrări realizate în perioada facultății. Fiecare director conține instrucțiuni și fișiere relevante pentru temele și laboratoarele respective.
 
