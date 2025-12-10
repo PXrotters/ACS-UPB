@@ -18,7 +18,7 @@ Acest repository conține o colecție de proiecte, laboratoare și teme realizat
 - **💻 [SDA-Lab](SDA-Lab)**: Laboratoare pentru cursul de *Structuri de Date și Algoritmi*.
 - **💻 [Laboratoare-MS](Laboratoare-MS)**: Laboratoare pentru cursul de *Modelare și Simulare*.
 - **💻 [Dispozitive_Aritmetice](Dispozitive_Aritmetice)** și **💻 [Pipeline](Pipeline)**: Laboratoare pentru cursul de *Structura și Organizarea Calculatoarelor*.
-- **💻 [Lab IA](Lab IA)**: Laboratoare pentru cursul de *Inteligența Artificială*.
+- **💻 [Lab IA](Lab%20IA)**: Laboratoare pentru cursul de *Inteligența Artificială*.
 
 ---
 
